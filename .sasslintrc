@@ -1,0 +1,9 @@
+files:
+  include: 'sass/**/*.s+(a|c)ss'
+  ignore:
+    - 'sass/vendor/**/*.scss'
+    - 'sass/tests/**/*.scss'
+
+  class-name-format:
+    - 1
+    - convention: hyphenated_BEM
